@@ -1,7 +1,7 @@
 import Card from "../UI/Card";
 import ExpenseItem from "./expenseItem";
 import "../Styling.css";
-function expenses(props) {
+const expenses = (props) => {
   return (
     <Card className="expenses">
       <ExpenseItem
@@ -21,6 +21,6 @@ function expenses(props) {
       />
     </Card>
   );
-}
+};
 
 export default expenses;
